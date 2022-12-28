@@ -3,11 +3,11 @@ import ssl
 import smtplib
 import imghdr
 
-email_sender = 'magbene1@gmail.com'
-email_password = 'zkeyszqnnnhuherv'
-email_receiver = 'adamsmichael46@gmail.com'
-subject = 'This is the subject'
-body = "Call me when you are free"
+email_sender = SENDER_MAIL
+email_password = SENDER_MAIL_PASSWORD
+email_receiver = RECEIVER_MAIL
+subject = EMAIL_SUBJECT
+body = EMAIL_BODY
 
 em = EmailMessage()
 em['From'] = email_sender
